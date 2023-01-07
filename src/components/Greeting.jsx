@@ -8,7 +8,7 @@ const Greeting = () => {
   const dispatch = useDispatch();
   let content;
   if (status === "success") {
-    content = greetingShow[0].message;
+    content = greetingShow.greeting;
   }
 
   return (
